@@ -69,32 +69,43 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Big Brain Quiz</h1>
-      {complete || userAnswers.length >= TOTAL_QUESTIONS ? (
-        <button className="start" onClick={startTrivia}>
-          {userAnswers.length >= TOTAL_QUESTIONS ? "Try Again" : "Start"}
-        </button>
-      ) : null}
-      {!complete ? <p className="score">Score: {score}</p> : null}
-      {loading ? <p className="loading">Loading Questions...</p> : null}
-      {!loading && !complete ? (
-        <QuestionCard
-          question={questions[number].question}
-          answers={questions[number].answers}
-          callback={checkAnswer}
-          userAnswers={userAnswers[number]}
-          questionNumber={number + 1}
-          totalQuestions={TOTAL_QUESTIONS}
-        />
-      ) : null}
-      {!complete &&
-      !loading &&
-      userAnswers.length >= number + 1 &&
-      number < TOTAL_QUESTIONS - 1 ? (
-        <button className="next" onClick={nextQuestion}>
-          Next Question
-        </button>
-      ) : null}
+      <h1>Big Brain Quiz &#129504;</h1>
+      <div className="info-card">
+        {complete ? (
+          <button className="start" onClick={startTrivia}>
+            Start
+          </button>
+        ) : null}
+        {!complete ? (
+          <p className="score">
+            Score: {score} / {userAnswers.length}
+          </p>
+        ) : null}
+        {loading ? <p className="loading">Loading Questions...</p> : null}
+        {!loading && !complete ? (
+          <QuestionCard
+            question={questions[number].question}
+            answers={questions[number].answers}
+            callback={checkAnswer}
+            userAnswer={userAnswers[number]}
+            questionNumber={number + 1}
+            totalQuestions={TOTAL_QUESTIONS}
+          />
+        ) : null}
+        {userAnswers.length >= TOTAL_QUESTIONS && !loading ? (
+          <button className="restart" onClick={startTrivia}>
+            Try Again
+          </button>
+        ) : null}
+        {!complete &&
+        !loading &&
+        userAnswers.length >= number + 1 &&
+        number < TOTAL_QUESTIONS - 1 ? (
+          <button className="next" onClick={nextQuestion}>
+            Next Question
+          </button>
+        ) : null}
+      </div>
     </div>
   );
 }
