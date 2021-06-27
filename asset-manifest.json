@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/big-brain-quiz/static/css/main.c98fcc7c.chunk.css",
-    "main.js": "/big-brain-quiz/static/js/main.3a373fe2.chunk.js",
-    "main.js.map": "/big-brain-quiz/static/js/main.3a373fe2.chunk.js.map",
-    "runtime-main.js": "/big-brain-quiz/static/js/runtime-main.78b8856d.js",
-    "runtime-main.js.map": "/big-brain-quiz/static/js/runtime-main.78b8856d.js.map",
-    "static/js/2.d7bfc41d.chunk.js": "/big-brain-quiz/static/js/2.d7bfc41d.chunk.js",
-    "static/js/2.d7bfc41d.chunk.js.map": "/big-brain-quiz/static/js/2.d7bfc41d.chunk.js.map",
-    "static/js/3.79d84f8c.chunk.js": "/big-brain-quiz/static/js/3.79d84f8c.chunk.js",
-    "static/js/3.79d84f8c.chunk.js.map": "/big-brain-quiz/static/js/3.79d84f8c.chunk.js.map",
+    "main.css": "/big-brain-quiz/static/css/main.f57f9733.chunk.css",
+    "main.js": "/big-brain-quiz/static/js/main.fa1606e4.chunk.js",
+    "main.js.map": "/big-brain-quiz/static/js/main.fa1606e4.chunk.js.map",
+    "runtime-main.js": "/big-brain-quiz/static/js/runtime-main.762250af.js",
+    "runtime-main.js.map": "/big-brain-quiz/static/js/runtime-main.762250af.js.map",
+    "static/js/2.d92e88eb.chunk.js": "/big-brain-quiz/static/js/2.d92e88eb.chunk.js",
+    "static/js/2.d92e88eb.chunk.js.map": "/big-brain-quiz/static/js/2.d92e88eb.chunk.js.map",
+    "static/js/3.50ba58a2.chunk.js": "/big-brain-quiz/static/js/3.50ba58a2.chunk.js",
+    "static/js/3.50ba58a2.chunk.js.map": "/big-brain-quiz/static/js/3.50ba58a2.chunk.js.map",
     "index.html": "/big-brain-quiz/index.html",
-    "static/css/main.c98fcc7c.chunk.css.map": "/big-brain-quiz/static/css/main.c98fcc7c.chunk.css.map",
-    "static/js/2.d7bfc41d.chunk.js.LICENSE.txt": "/big-brain-quiz/static/js/2.d7bfc41d.chunk.js.LICENSE.txt"
+    "static/css/main.f57f9733.chunk.css.map": "/big-brain-quiz/static/css/main.f57f9733.chunk.css.map",
+    "static/js/2.d92e88eb.chunk.js.LICENSE.txt": "/big-brain-quiz/static/js/2.d92e88eb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.78b8856d.js",
-    "static/js/2.d7bfc41d.chunk.js",
-    "static/css/main.c98fcc7c.chunk.css",
-    "static/js/main.3a373fe2.chunk.js"
+    "static/js/runtime-main.762250af.js",
+    "static/js/2.d92e88eb.chunk.js",
+    "static/css/main.f57f9733.chunk.css",
+    "static/js/main.fa1606e4.chunk.js"
   ]
 }
