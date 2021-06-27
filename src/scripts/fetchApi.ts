@@ -38,7 +38,6 @@ export const fetchQuestions = async (
     `&type=${type}`;
 
   const data = await (await fetch(endpoint)).json();
-  console.log(data);
   return data.results.map((question: QuestionFormat) => ({
     ...question,
     answers: shuffleArray([

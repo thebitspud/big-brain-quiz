@@ -8,8 +8,8 @@
   background-color: white;
   color: black;
   width: 25rem;
+  max-width: calc(90% - 4rem);
   min-height: 27rem;
-  max-width: 90%;
   border-radius: 1rem;
   margin: auto;
   padding: 2rem;
@@ -19,6 +19,7 @@ button {
   font-size: 1.5rem;
   min-height: 3rem;
   width: 25rem;
+  max-width: 100%;
   margin-top: 1rem;
   border-radius: 0;
 
@@ -26,7 +27,7 @@ button {
   cursor: pointer;
 }
 
-button.start, button.restart, button.next {
+button.start, button.results, button.next, button.stats {
   font-size: 2rem;
   border-radius: 2rem;
 }
@@ -39,7 +40,33 @@ button:disabled {
   cursor: auto;
 }
 
-.score, .start {
+.score {
   margin-top: 0;
   padding-top: 0;
+}
+
+.score-card {
+  font-size: 1.75rem;
+}
+
+.rank {
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+#footer {
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgray;
 }
